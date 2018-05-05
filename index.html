@@ -8,33 +8,45 @@
 			background-color: #515A5A;
 			color: white;
 
-			margin: 10px;
-			padding: 10px;
+			margin: 20px;
+			padding: 20px;
 
 		}
 
 		header span {
 			text-align: center;
-			background: #515A5C;
+			background: #515A6C;
+		}
+
+		header a:link {
+			color: white;
+			text-decoration: none;
+		}
+
+		header a:hover {
+			color:  burlyWood;
+			text-decoration: none;
 		}
 
 		#title {
 			position: sticky;
-			float: left;
 		}
-		
-		/*header #info {
-			float: center;
-		}*/
 
 		#uchat {
 			position: sticky;
 			float: right;
 		}
 
+		/* Content */
 		#content {
-			padding: 40px;
+			/*padding: 40px;
 			margin: 40px;
+
+			text-align: center*/
+
+			margin-left: auto;
+		    margin-right: auto;
+		    width: 40em
 		}
 		/* Table */
 
@@ -42,10 +54,16 @@
 		    border: 3px solid black;
 		}
 
-
-
 		td {
 		    border: 3px solid lightgray;
+		}
+
+		/* Foot of the page*/
+
+		footer {
+			margin: 100px;
+			padding: 100px;
+
 		}
 
 	</style>
@@ -53,7 +71,6 @@
 <body>
 	<header>
 		<span id="title"> <b>ART OF WAR</b> </span>
-		<!-- <span id="info"> <i>FUCKING INFO</i> </span> -->
 		<span id="uchat"> 
 			<a href="https://t.me/ua_ch"> 
 				<img src="./image/icons/telegram.png"> 
@@ -71,6 +88,7 @@
 					<td> Title </td>
 					<td> English </td>
 					<td> Russian </td>
+					<td> Ukrainian </td>
  				</tr>
 			</thead>
 			<tbody>
@@ -79,16 +97,33 @@
 					<td> Art of war </td>
 					<td> <a href="./books/pdf/eng/The_Art_Of_War.pdf">Read</a></td>
 					<td> <a href="./books/pdf/rus/Sun-tsy.pdf">Читать</td>
+					<td> <a href="./books/pdf/ukr/Mystetstvo_viiny_vyd_2014.pdf">Читати</td>
 				</tr>
+
+				<tr>
+					<td> David Sirlin </td>
+					<td> Playing to win </td>
+					<td> <a href=""> </a></td>
+					<td> <a href="./books/pdf/rus/Devid_Sirlin_-_Igray_na_pobedu_Playing_to_Win.pdf">Читать</td>
+					<td> <a href=""> </a></td>
+				</tr>
+
 			</tbody>
 		</table>
 	</div>	
 	
+	<div id="tmp">
+
+	</div>
 	
 	<footer>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/sDZjxTKgd5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</footer>
 	
-	
+
+
+	<script type="text/javascript">
+		
+	</script>
 </body>
 </html>
