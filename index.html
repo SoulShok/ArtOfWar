@@ -4,22 +4,85 @@
 	<title>AOW</title>
 	<style>
 		header {
-			background: #515A5A;
+			/*position: relative;*/
+			background-color: #515A5A;
 			color: white;
+
+			margin: 10px;
+			padding: 10px;
+
+		}
+
+		header span {
+			text-align: center;
+			background: #515A5C;
+		}
+
+		#title {
+			position: sticky;
+			float: left;
 		}
 		
+		/*header #info {
+			float: center;
+		}*/
+
+		#uchat {
+			position: sticky;
+			float: right;
+		}
+
+		#content {
+			padding: 40px;
+			margin: 40px;
+		}
+		/* Table */
+
+		table {
+		    border: 3px solid black;
+		}
+
+
+
+		td {
+		    border: 3px solid lightgray;
+		}
+
 	</style>
 </head>
 <body>
 	<header>
-		<span> <b>ART OF WAR</b> </span>
-		<span> </span>
-		<span> <a href=""> UCHAT </a></span>
+		<span id="title"> <b>ART OF WAR</b> </span>
+		<!-- <span id="info"> <i>FUCKING INFO</i> </span> -->
+		<span id="uchat"> 
+			<a href=""> 
+				<img src="./image/icons/telegram.png"> 
+				UCHAT 
+			</a>
+		</span>
 	</header>
 	
 	
-	
-	
+	<div id="content">
+		<table>
+			<thead>
+				<tr>
+					<td> Author </td>
+					<td> Title </td>
+					<td> English </td>
+					<td> Russian </td>
+ 				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> Sun Tzu </td>
+					<td> Art of war </td>
+					<td> <a href="./books/pdf/eng/The_Art_Of_War.pdf">Read</a></td>
+					<td> <a href="./books/pdf/rus/Sun-tsy.pdf">Читать</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>	
 	
 	
 	
