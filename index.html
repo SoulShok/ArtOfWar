@@ -11,19 +11,23 @@
 			margin: 20px;
 			padding: 20px;
 
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
 		}
 
 		header span {
-			text-align: center;
+			
 			background: #515A5A;
 		}
 
-		header a:link {
+		#uchat a:link {
 			color: white;
 			text-decoration: none;
 		}
 
-		header a:hover {
+		#uchat a:hover {
 			background-color: #599FE0;
 			color:  white;
 			text-decoration: none;
@@ -39,13 +43,16 @@
 		}
 
 		#title {
-			position: sticky;
+			/*position: sticky;*/
 		}
 
 		#uchat {
-			position: sticky;
-			float: right;
+			/*position: sticky;
+			float: right;*/
 		}
+
+
+
 
 		/* Content */
 		#content {
@@ -86,8 +93,12 @@
 </head>
 <body>
 	<header>
-		<span id="title"> <b>ART OF WAR</b> </span>
-		<span id="uchat"> 
+		<span id="title" class="">
+			<a href="/"> 
+				ART OF WAR
+			</a>
+		</span>
+		<span id="uchat" class=""> 
 			<a href="https://t.me/ua_ch"> 
 				<img src="./image/icons/telegram.png"> 
 				UCHAT 
