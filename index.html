@@ -12,8 +12,7 @@
 			padding: 20px;
 
 			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
+			flex-flow: row wrap;
 			justify-content: space-between;
 		}
 
@@ -22,6 +21,23 @@
 			background: #515A5A;
 		}
 
+		/* Title button */
+		#title a {
+			padding: 5px;
+		}
+
+		#title a:link {
+			font-weight:bold;
+			color: white;
+			text-decoration: none;
+		}
+
+		#title a:hover {
+			background: red;
+			font-weight:bolder;
+		}
+
+		/* Telega button*/
 		#uchat a:link {
 			color: white;
 			text-decoration: none;
@@ -41,16 +57,6 @@
 			color: white;
 			text-decoration: none;
 		}
-
-		#title {
-			/*position: sticky;*/
-		}
-
-		#uchat {
-			/*position: sticky;
-			float: right;*/
-		}
-
 
 
 
@@ -92,9 +98,10 @@
 	</style>
 </head>
 <body>
+
 	<header>
 		<span id="title" class="">
-			<a href="/"> 
+			<a href=""> 
 				ART OF WAR
 			</a>
 		</span>
